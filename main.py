@@ -255,7 +255,7 @@ def draw():
     for i,(title,body) in enumerate(briefs):
         x = 24+244*i
         text(title,x,750,2,RED)
-        paragraph(body,x,772,232,888)
+        paragraph(body,x,772,232,888,color=INK)
         if i:
             rect(x-12,750,1,134,RULE)
     rect(24,896,976,40,INK)
